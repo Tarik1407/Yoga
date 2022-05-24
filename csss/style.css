@@ -1,0 +1,707 @@
+/***************************
+                    Basic styles
+                    ***************************/
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.cont {
+  width: 85%;
+  margin: auto;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/***************************
+                    Variables
+                    ***************************/
+/***************************
+                Section Intro
+                ***************************/
+.introMain {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 20px 0px;
+}
+
+.introMain article a {
+  font-size: 1.2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.introMain article a:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  -webkit-transition: 0.7s ease;
+  transition: 0.7s ease;
+}
+
+.introMain article a .fas {
+  font-size: 2.4rem;
+  color: #28a745;
+  margin-right: 20px;
+}
+
+.introMain article a:hover {
+  color: #28a745;
+  -webkit-transition: 0.7s ease;
+  transition: 0.7s ease;
+}
+
+/***************************
+                End of section Intro
+                ***************************/
+/***************************
+                Navigation
+                ***************************/
+.nav {
+  background: #28a745;
+  opacity: 0.9;
+}
+
+.nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding: 20px 0px;
+}
+
+.nav ul a {
+  font-size: 1.3rem;
+  font-weight: 200;
+  color: white;
+}
+
+.nav ul a:hover {
+  color: #000;
+  -webkit-transform: translate(10px);
+          transform: translate(10px);
+  -webkit-transition: 0.7s ease;
+  transition: 0.7s ease;
+}
+
+/***************************
+                End of navigation
+                ***************************/
+/***************************
+                Start of section main
+                ***************************/
+.main .first {
+  width: 100%;
+}
+
+.main .second {
+  width: 100%;
+  margin-top: -200px;
+}
+
+.main .word {
+  margin-top: -740px;
+  margin-left: 250px;
+}
+
+.main .word h1 {
+  font-size: 5rem;
+  color: #28a745;
+}
+
+.main .word h1 span {
+  color: #000;
+}
+
+.main .word button {
+  padding: 20px 54px;
+  font-size: 1.2rem;
+  margin: 20px 0px;
+  text-transform: uppercase;
+  border: 2px solid #28a745;
+  font-family: system-ui;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.main .word button:hover {
+  background-color: #28a745;
+  color: white;
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+  -webkit-transition: 0.7s ease;
+  transition: 0.7s ease;
+}
+
+/***************************
+                End of section main
+                ***************************/
+/***************************
+                Start of section about
+                ***************************/
+#about {
+  padding-top: 450px;
+}
+
+#about .mainAbout {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 95%;
+  margin-left: auto;
+}
+
+#about .mainAbout .leftAbout {
+  width: 47%;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+          box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  padding: 50px 76px;
+}
+
+#about .mainAbout .leftAbout h3 {
+  font-size: 4rem;
+  margin-bottom: 30px;
+}
+
+#about .mainAbout .leftAbout h3 span {
+  color: #28a745;
+}
+
+#about .mainAbout .leftAbout p {
+  font-size: 1.4rem;
+  line-height: 1.4;
+}
+
+#about .mainAbout .rightAbout {
+  width: 47%;
+}
+
+#about .mainAbout .rightAbout img {
+  width: 90%;
+}
+
+/***************************
+                End of section about
+                ***************************/
+/***************************
+                Start of section Yoga
+                ***************************/
+#yoga {
+  padding: 50px 0px;
+}
+
+#yoga h3 {
+  text-align: center;
+  font-size: 4rem;
+  margin-bottom: 40px;
+}
+
+#yoga h3 span {
+  color: #28a745;
+}
+
+#yoga .mainYoga {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  text-align: center;
+}
+
+#yoga .mainYoga article h6 {
+  font-size: 2rem;
+  margin: 10px 0px;
+}
+
+#yoga .mainYoga article p {
+  font-size: 1.2rem;
+  width: 80%;
+  margin: auto;
+  line-height: 1.4;
+}
+
+#yoga button {
+  padding: 20px 40px;
+  border-radius: 10px;
+  text-transform: uppercase;
+  background: white;
+  border: 2px solid #28a745;
+  font-size: 1.2rem;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+#yoga button:hover {
+  background-color: #28a745;
+  color: white;
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+  -webkit-transition: 0.7s ease;
+  transition: 0.7s ease;
+}
+
+/***************************
+                End of section Yoga
+                ***************************/
+/***************************
+                Start of section IntroPict
+                ***************************/
+.introPict {
+  text-align: center;
+  padding: 50px 0px;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+          box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.introPict h4 {
+  font-size: 4rem;
+  color: #58c62c;
+  padding-bottom: 77px;
+}
+
+.introPict p {
+  font-size: 1.3rem;
+  color: #58c62c;
+  margin-top: 80px;
+}
+
+/***************************
+                End of section IntroPict
+                ***************************/
+/***************************
+                Start of section Price
+                ***************************/
+#price {
+  width: 80%;
+  margin: auto;
+  padding: 50px 0px;
+}
+
+#price h3 {
+  text-align: center;
+  font-size: 4rem;
+  padding-bottom: 50px;
+}
+
+#price h3 span {
+  color: #58c62c;
+}
+
+#price .mainPrice {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+#price .mainPrice .first {
+  width: 28%;
+  text-align: center;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+          box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+#price .mainPrice .first h4 {
+  padding: 30px;
+  text-align: center;
+  font-size: 2rem;
+  background: black;
+  color: white;
+}
+
+#price .mainPrice .first h2 {
+  text-align: center;
+  margin: 40px 0px;
+  font-size: 5rem;
+  color: #58c62c;
+}
+
+#price .mainPrice .first p {
+  text-align: center;
+  font-size: 1.3rem;
+  padding-bottom: 30px;
+  width: 80%;
+  margin: auto;
+}
+
+#price .mainPrice .first button {
+  padding: 20px 40px;
+  font-size: 1.4rem;
+  border: 2px solid #58c62c;
+  background: white;
+  margin-bottom: 20px;
+}
+
+#price .mainPrice .first button:hover {
+  background-color: black;
+  color: white;
+  border: none;
+  cursor: pointer;
+  -webkit-transition: 0.7s ease;
+  transition: 0.7s ease;
+}
+
+#price .mainPrice .second {
+  width: 31%;
+  text-align: center;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+          box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+#price .mainPrice .second h4 {
+  padding: 30px;
+  text-align: center;
+  font-size: 2rem;
+  background: #58c62c;
+  color: white;
+}
+
+#price .mainPrice .second img {
+  width: 100%;
+}
+
+#price .mainPrice .second h2 {
+  text-align: center;
+  margin: 40px 0px;
+  font-size: 5rem;
+}
+
+#price .mainPrice .second h2 span {
+  color: #58c62c;
+}
+
+#price .mainPrice .second p {
+  text-align: center;
+  font-size: 1.3rem;
+  padding-bottom: 30px;
+  width: 80%;
+  margin: auto;
+}
+
+#price .mainPrice .second button {
+  padding: 20px 40px;
+  font-size: 1.4rem;
+  border: 2px solid #28a745;
+  background: white;
+  margin-bottom: 20px;
+}
+
+#price .mainPrice .second button:hover {
+  background-color: black;
+  color: white;
+  border: none;
+  cursor: pointer;
+  -webkit-transition: 0.7s ease;
+  transition: 0.7s ease;
+}
+
+/***************************
+                End of section Price
+                ***************************/
+/***************************
+                Start of section Email
+                ***************************/
+.email {
+  background: #58c62c;
+  text-align: center;
+  padding: 80px 0px;
+}
+
+.email h3 {
+  font-size: 4rem;
+  color: white;
+  margin-bottom: 50px;
+}
+
+.email .input {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.email .input input[type=email] {
+  padding: 15px 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 30%;
+  outline: none;
+  font-size: 1.1rem;
+}
+
+.email .input input[type=submit] {
+  padding: 16px 20px;
+  background: black;
+  color: white;
+  font-size: 1.1rem;
+  width: 15%;
+  margin-left: 30px;
+  border: none;
+  outline: none;
+}
+
+.email .input input[type=submit]:hover {
+  background-color: #6c757d;
+  color: white;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  cursor: pointer;
+  outline: none;
+  border: none;
+  -webkit-transition: 0.7s ease;
+  transition: 0.7s ease;
+}
+
+/***************************
+                End of section Email
+                ***************************/
+/***************************
+                Start of section yogaOnline
+                ***************************/
+#yogaOnline {
+  text-align: center;
+  padding: 80px 0px;
+}
+
+#yogaOnline h3 {
+  font-size: 4rem;
+  margin-bottom: 240px;
+}
+
+#yogaOnline h3 span {
+  color: #58c62c;
+}
+
+#yogaOnline .cont {
+  background-color: #58c62c;
+}
+
+#yogaOnline .cont img {
+  position: relative;
+  top: -100px;
+}
+
+/***************************
+                End of section yogaOnline
+                ***************************/
+/***************************
+                Start of section Contact
+                ***************************/
+#contact h3 {
+  text-align: center;
+  font-size: 4rem;
+  padding-bottom: 60px;
+}
+
+#contact h3 span {
+  color: #58c62c;
+}
+
+#contact .mainContact {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#contact .mainContact .left {
+  width: 50%;
+  background-color: #14240c;
+}
+
+#contact .mainContact .left .inputs {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding-top: 30px;
+}
+
+#contact .mainContact .left .inputs input {
+  width: 80%;
+  margin: auto;
+  outline: none;
+  padding: 13px;
+  background: transparent;
+  border: none;
+  border-bottom: 2px solid white;
+  margin-bottom: 30px;
+  font-size: 1.1rem;
+  color: white;
+}
+
+#contact .mainContact .left .inputs button {
+  width: 20%;
+  margin: auto;
+  padding: 14px;
+  font-size: 1.4rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+
+#contact .mainContact .left .inputs button:hover {
+  background-color: #58c62c;
+  color: white;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  -webkit-transition: 0.7s ease;
+  transition: 0.7s ease;
+}
+
+#contact .mainContact .left .phones {
+  padding: 30px 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  font-size: 1.4rem;
+}
+
+#contact .mainContact .left .phones a {
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#contact .mainContact .left .phones a .fas {
+  font-size: 2rem;
+  color: #58c62c;
+  margin-right: 20px;
+}
+
+#contact .mainContact .left .icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-bottom: 30px;
+}
+
+#contact .mainContact .left .icons a {
+  color: #fff;
+  width: 60px;
+  height: 60px;
+  border: solid #fff 1px;
+  float: left;
+  text-align: center;
+  line-height: 40px;
+  border-radius: 100%;
+  font-size: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-right: 25px;
+}
+
+#contact .mainContact .left .icons a:hover {
+  background-color: #58c62c;
+  -webkit-transition: 0.7s ease;
+  transition: 0.7s ease;
+}
+
+#contact .mainContact .left .icons a .fab {
+  font-size: 1.5rem;
+}
+
+#contact .mainContact .right {
+  width: 50%;
+}
+
+#contact .mainContact .right iframe {
+  width: 100%;
+  height: 100%;
+}
+
+/***************************
+                End of section Contact
+                ***************************/
+/***************************
+                Start of section Footer
+                ***************************/
+.footer {
+  text-align: center;
+  background: #36791b;
+  font-size: 1.4rem;
+  padding: 30px 0px;
+  color: white;
+}
+
+.footer p {
+  color: white;
+  font-weight: lighter;
+}
+
+.footer p span a {
+  color: white;
+}
+
+.footer p span a:hover {
+  color: #000;
+  -webkit-transition: 0.7s ease;
+  transition: 0.7s ease;
+}
+
+/***************************
+                End of section Footer
+                ***************************/
+/*# sourceMappingURL=style.css.map */
